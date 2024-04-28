@@ -3,6 +3,7 @@
     --colorPrimario: #0097a7;
     --blanco: #ffff;
     --negro: #000;
+    --gris: #757575;
 }
 
 /* Globales */
@@ -18,10 +19,11 @@ body{
 
 }
 
-/* Titulo */
-.titulo{
+h1,h2{
     text-align: center;
 }
+
+/* Titulo */
 .titulo span{
     font-size: 2rem;
 }
@@ -88,4 +90,14 @@ body{
 .contenedor .ubicacion{
     display: flex;
     align-items: flex-end;
+}
+
+/* Contacto */
+
+.formulario{
+    background-color: var(--gris);
+    width: min( 60rem , 100%); /* Para utilizar el valor mas pequeño */
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 1rem;
 }
