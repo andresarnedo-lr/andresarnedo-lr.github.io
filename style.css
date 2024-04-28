@@ -25,3 +25,27 @@ body{
 .titulo span{
     font-size: 2rem;
 }
+
+/* Navegacion */
+
+.nav{
+    background-color: var(--colorPrimario);
+}
+
+.navegacion-principal{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navegacion-principal a{
+    color: var(--blanco);
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 1rem;
+
+}
+.navegacion-principal a:hover{
+    background-color: var(--colorSecundario);
+    color: var(--negro);
+}
