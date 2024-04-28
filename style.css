@@ -4,3 +4,16 @@
     --blanco: #ffff;
     --negro: #000;
 }
+
+/* Globales */
+
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 16px; /* 1 rem = 10px*/
+    margin: 10px;
+    border: 1px solid ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
