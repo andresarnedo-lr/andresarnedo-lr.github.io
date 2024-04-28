@@ -34,9 +34,15 @@ body{
 
 .navegacion-principal{
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
 }
-
+@media (min-width: 768px) {
+    .navegacion-principal{
+    flex-direction: row;
+    justify-content: space-evenly;
+    }      
+} 
 .navegacion-principal a{
     color: var(--blanco);
     text-decoration: none;
