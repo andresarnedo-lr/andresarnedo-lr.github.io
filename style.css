@@ -12,8 +12,16 @@ html{
 }
 body{
     font-size: 16px; /* 1 rem = 10px*/
-    margin: 10px;
-    border: 1px solid ;
+    margin: 1rem;
+    border: 0.1rem solid ;
     font-family: Georgia, 'Times New Roman', Times, serif;
 
+}
+
+/* Titulo */
+.titulo{
+    text-align: center;
+}
+.titulo span{
+    font-size: 2rem;
 }
