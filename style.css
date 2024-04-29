@@ -56,6 +56,7 @@ h1,h2{
 .navegacion-principal a:hover{
     background-color: var(--colorSecundario);
     color: var(--negro);
+    transition: 1.5s;
 }
 
 /* Base */
@@ -139,7 +140,7 @@ h1,h2{
     font-size: 2rem;
     text-decoration: none;
     text-transform: uppercase;
-    border-radius: .5rem;   
+    border-radius: .5rem;  
     
 }
 
@@ -147,6 +148,7 @@ h1,h2{
     cursor: pointer;
     background-color: var(--colorSecundario);
     color: var(--negro);
+    transition: 3s;
 }
 
 .enviar .boton{
