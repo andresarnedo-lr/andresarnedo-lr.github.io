@@ -95,7 +95,7 @@ h1,h2{
 
 /* Contacto */
 
-.formulario{
+#formulario{
     background-color: var(--gris);
     width: min( 60rem , 100%); /* Para utilizar el valor mas pequeño */
     margin: 0 auto;
@@ -103,11 +103,11 @@ h1,h2{
     border-radius: 1rem;
 }
 
-.formulario fieldset{
+#formulario fieldset{
     border: none;
 }
 
-.formulario legend{
+#formulario legend{
     text-align: center;
     font-size: 1.8rem;
     color: var(--colorSecundario);
