@@ -143,6 +143,12 @@ h1,h2{
     
 }
 
+.boton:hover{
+    cursor: pointer;
+    background-color: var(--colorSecundario);
+    color: var(--negro);
+}
+
 .enviar .boton{
     width: 100%;
 }
